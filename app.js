@@ -41,7 +41,7 @@ const startGame = () => {
     const dice = Math.floor(Math.random() * 6) + 1;
     document.querySelector(".dice").src = "dice-"+dice+".png";
     if (dice === 1) {
-      alert("You are fucked, eat a dick ");
+      alert("You are Screwed, eat a banana!!");
       changePlayer();
       roundScore = 0;
       return;
